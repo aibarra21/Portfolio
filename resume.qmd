@@ -1,4 +1,5 @@
 ---
 title: "Resume"
-format: html
 ---
+
+{{< pdf media/Ashley-Ibarra-Resume.pdf width=100% height=800 >}}
