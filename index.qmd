@@ -1,7 +1,9 @@
 ---
 title: "Ashley Ibarra"
+image: media/profpic.JPG
 about: 
   template: solana
+  image-shape: round
   links:
     - text: LinkedIn
       href: https://www.linkedin.com/in/ashleyibarra2024/
