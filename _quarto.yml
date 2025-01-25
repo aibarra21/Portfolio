@@ -6,7 +6,6 @@ website:
   title: "Ashley Ibarra"
   navbar:
     left:
-        text: Home
       - resume.qmd
       - projects.qmd
 
