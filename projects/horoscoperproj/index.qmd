@@ -1,0 +1,7 @@
+---
+title: "HoroscopeR"
+author: Ashley Ibarra
+format: html
+---
+
+# Horoscoper

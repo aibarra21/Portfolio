@@ -5,8 +5,16 @@ about:
   template: solana
   image-shape: round
   links:
-    - text: LinkedIn
+    - icon: envelope
+      href: mailto:ashle.ib9112@gmail.com
+    - icon: linkedin
       href: https://www.linkedin.com/in/ashleyibarra2024/
-    - text: GitHub
+    - icon: github
       href: https://github.com/aibarra21
 ---
+
+#### I am a recent Statistics graduate with a passion for data storytelling using R. 
+
+## Education
+
+B.S. Statistics, Math Minor at Cal Poly SLO
