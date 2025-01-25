@@ -1,10 +1,15 @@
 ---
-title: "Portfolio"
+title: "Ashley Ibarra"
+about: 
+  template: solana
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/ashleyibarra2024/
+    - text: GitHub
+      href: https://github.com/aibarra21
 ---
 
 This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ```{r}
 1 + 1
