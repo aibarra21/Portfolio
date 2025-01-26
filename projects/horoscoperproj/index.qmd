@@ -1,7 +1,55 @@
 ---
 title: "HoroscopeR"
-author: Ashley Ibarra
-format: html
+description: Generates daily horoscopes and zodiac sign information. This package uses webscrapping to get the horoscope information from horoscope.com
+author: 
+  - name: Ashley Ibarra
+  - name: Rebecca Ioffe
+image: media/horoscopeR.png
 ---
 
-# Horoscoper
+<!-- badges: start -->
+
+<!-- badges: end -->
+
+## Installation
+
+You can install the development version from [GitHub](https://github.com/) with:
+
+```{r}
+# install.packages("devtools")
+devtools::install_github("aibarra21/horoscoper")
+```
+
+```{r}
+library(horoscoper)
+```
+
+## Zodiac Sign
+
+You can use the function get_zodiac_sign() to determine what zodiac sign you are by entering your birthday. Enter the month, day, then year in any format.
+
+```{r}
+get_zodiac_sign("april 24 2002")
+```
+
+You can use the function get_sign_traits() to determine traits and characteristics of your sign.
+
+```{r}
+get_sign_traits("taurus")
+```
+
+## Daily Horoscope
+
+You can use the function getdailyhoroscope() to get your daily horoscope for your zodiac. This function updates daily.
+
+```{r}
+getdailyhoroscope("taurus")
+```
+
+## Compatability
+
+You can use the function compatibility() to determine how compatible any two zodiac signs are.
+
+```{r}
+compatibility("taurus","Cancer")
+```

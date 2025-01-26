@@ -11,7 +11,35 @@
     "href": "projects/horoscoperproj/index.html",
     "title": "HoroscopeR",
     "section": "",
-    "text": "Horoscoper"
+    "text": "You can install the development version from GitHub with:\n\n# install.packages(\"devtools\")\ndevtools::install_github(\"aibarra21/horoscoper\")\n\nUsing GitHub PAT from the git credential store.\n\n\nSkipping install of 'horoscoper' from a github remote, the SHA1 (8a0d797c) has not changed since last install.\n  Use `force = TRUE` to force installation\n\n\n\nlibrary(horoscoper)"
+  },
+  {
+    "objectID": "projects/horoscoperproj/index.html#installation",
+    "href": "projects/horoscoperproj/index.html#installation",
+    "title": "HoroscopeR",
+    "section": "",
+    "text": "You can install the development version from GitHub with:\n\n# install.packages(\"devtools\")\ndevtools::install_github(\"aibarra21/horoscoper\")\n\nUsing GitHub PAT from the git credential store.\n\n\nSkipping install of 'horoscoper' from a github remote, the SHA1 (8a0d797c) has not changed since last install.\n  Use `force = TRUE` to force installation\n\n\n\nlibrary(horoscoper)"
+  },
+  {
+    "objectID": "projects/horoscoperproj/index.html#zodiac-sign",
+    "href": "projects/horoscoperproj/index.html#zodiac-sign",
+    "title": "HoroscopeR",
+    "section": "Zodiac Sign",
+    "text": "Zodiac Sign\nYou can use the function get_zodiac_sign() to determine what zodiac sign you are by entering your birthday. Enter the month, day, then year in any format.\n\nget_zodiac_sign(\"april 24 2002\")\n\n[1] \"Your zodiac sign is Taurus\"\n\n\nYou can use the function get_sign_traits() to determine traits and characteristics of your sign.\n\nget_sign_traits(\"taurus\")\n\nSign: Taurus\nSymbol: Bull\nLucky Gem: Emerald\nFlower: Rose, Poppy, & Foxglove\nYou are described as Dependable, Musical, Practical\nYou are most compatible with Cancer.\nMotto: \"Nothing worth having comes easy.\""
+  },
+  {
+    "objectID": "projects/horoscoperproj/index.html#daily-horoscope",
+    "href": "projects/horoscoperproj/index.html#daily-horoscope",
+    "title": "HoroscopeR",
+    "section": "Daily Horoscope",
+    "text": "Daily Horoscope\nYou can use the function getdailyhoroscope() to get your daily horoscope for your zodiac. This function updates daily.\n\ngetdailyhoroscope(\"taurus\")\n\nSign: Taurus\nDaily Horoscope: Jan 25, 2025 - Don't turn down invitations today, Taurus. A group meeting or social event could be thrown together with casual acquaintances, and your relationship with these people could abruptly change. At the very least, some will become friends. You might also acquire some valuable business contacts or partners. You might fall in love. By evening, you could be in a daze from the unexpected events."
+  },
+  {
+    "objectID": "projects/horoscoperproj/index.html#compatability",
+    "href": "projects/horoscoperproj/index.html#compatability",
+    "title": "HoroscopeR",
+    "section": "Compatability",
+    "text": "Compatability\nYou can use the function compatibility() to determine how compatible any two zodiac signs are.\n\ncompatibility(\"taurus\",\"Cancer\")\n\nRomantic Compatibility between Taurus and Cancer:\nCompatibility Score: 8/10\nDescription: It’s love at first sight when Taurus meets Cancer.  Both are a great match because they have similar energy levels, dispositions, and desires in life.  They both have an eye for design, protective natures, and a high sex-drive that keeps them interested for a long time.  Taurus and Cancer have a lot in common: both are homebodies, deeply loyal, and very sentimental.  If a Taurus and Cancer went to the movies on their first date, they would each save the ticket stub as a keepsake (and possibly put it in a scrapbook).  Taurus and Cancer both crave stability and security in life.  They want to build a happy home, settle down, and have a family.  They both just want to be loved."
   },
   {
     "objectID": "resume.html",
@@ -25,6 +53,6 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "HoroscopeR\n\n\n\n\n\n\nAshley Ibarra\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "HoroscopeR\n\n\nGenerates daily horoscopes and zodiac sign information. This package uses webscrapping to get the horoscope information from horoscope.com\n\n\n\nAshley Ibarra, Rebecca Ioffe\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

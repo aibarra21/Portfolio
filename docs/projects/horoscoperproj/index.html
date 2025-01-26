@@ -7,6 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ashley Ibarra">
+<meta name="author" content="Rebecca Ioffe">
+<meta name="description" content="Generates daily horoscopes and zodiac sign information. This package uses webscrapping to get the horoscope information from horoscope.com">
 
 <title>HoroscopeR – Ashley Ibarra</title>
 <style>
@@ -20,6 +22,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -117,14 +153,20 @@ ul.task-list li input[type="checkbox"] {
 <h1 class="title">HoroscopeR</h1>
 </div>
 
+<div>
+  <div class="description">
+    Generates daily horoscopes and zodiac sign information. This package uses webscrapping to get the horoscope information from horoscope.com
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
     <div>
-    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-heading">Authors</div>
     <div class="quarto-title-meta-contents">
              <p>Ashley Ibarra </p>
+             <p>Rebecca Ioffe </p>
           </div>
   </div>
     
@@ -137,8 +179,71 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="horoscoper" class="level1">
-<h1>Horoscoper</h1>
+<!-- badges: start -->
+<!-- badges: end -->
+<section id="installation" class="level2">
+<h2 class="anchored" data-anchor-id="installation">Installation</h2>
+<p>You can install the development version from <a href="https://github.com/">GitHub</a> with:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("devtools")</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"aibarra21/horoscoper"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Using GitHub PAT from the git credential store.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Skipping install of 'horoscoper' from a github remote, the SHA1 (8a0d797c) has not changed since last install.
+  Use `force = TRUE` to force installation</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(horoscoper)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="zodiac-sign" class="level2">
+<h2 class="anchored" data-anchor-id="zodiac-sign">Zodiac Sign</h2>
+<p>You can use the function get_zodiac_sign() to determine what zodiac sign you are by entering your birthday. Enter the month, day, then year in any format.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">get_zodiac_sign</span>(<span class="st">"april 24 2002"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Your zodiac sign is Taurus"</code></pre>
+</div>
+</div>
+<p>You can use the function get_sign_traits() to determine traits and characteristics of your sign.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">get_sign_traits</span>(<span class="st">"taurus"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Sign: Taurus
+Symbol: Bull
+Lucky Gem: Emerald
+Flower: Rose, Poppy, &amp; Foxglove
+You are described as Dependable, Musical, Practical
+You are most compatible with Cancer.
+Motto: "Nothing worth having comes easy."</code></pre>
+</div>
+</div>
+</section>
+<section id="daily-horoscope" class="level2">
+<h2 class="anchored" data-anchor-id="daily-horoscope">Daily Horoscope</h2>
+<p>You can use the function getdailyhoroscope() to get your daily horoscope for your zodiac. This function updates daily.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">getdailyhoroscope</span>(<span class="st">"taurus"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Sign: Taurus
+Daily Horoscope: Jan 25, 2025 - Don't turn down invitations today, Taurus. A group meeting or social event could be thrown together with casual acquaintances, and your relationship with these people could abruptly change. At the very least, some will become friends. You might also acquire some valuable business contacts or partners. You might fall in love. By evening, you could be in a daze from the unexpected events.</code></pre>
+</div>
+</div>
+</section>
+<section id="compatability" class="level2">
+<h2 class="anchored" data-anchor-id="compatability">Compatability</h2>
+<p>You can use the function compatibility() to determine how compatible any two zodiac signs are.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">compatibility</span>(<span class="st">"taurus"</span>,<span class="st">"Cancer"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Romantic Compatibility between Taurus and Cancer:
+Compatibility Score: 8/10
+Description: It’s love at first sight when Taurus meets Cancer.  Both are a great match because they have similar energy levels, dispositions, and desires in life.  They both have an eye for design, protective natures, and a high sex-drive that keeps them&nbsp;interested for&nbsp;a long time. &nbsp;Taurus and Cancer have a lot in common: both are homebodies, deeply loyal, and very sentimental.  If a Taurus and Cancer went to the movies on their first date, they would each save the ticket stub as a keepsake (and possibly put it in a scrapbook).  Taurus and Cancer both crave stability and security in life.  They want to build a happy home, settle down, and have a family.  They both just want to be loved.</code></pre>
+</div>
+</div>
 
 
 </section>
