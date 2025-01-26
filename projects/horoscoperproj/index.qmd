@@ -4,12 +4,10 @@ description: Generates daily horoscopes and zodiac sign information. This packag
 author: 
   - name: Ashley Ibarra
   - name: Rebecca Ioffe
-image: media/horoscopeR.png
+image: /media/horoscopeR.png
 ---
 
-<!-- badges: start -->
-
-<!-- badges: end -->
+![HoroscopeR Hex](/media/horoscopeR.png){fig-align="center" width="400"}
 
 ## Installation
 

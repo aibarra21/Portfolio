@@ -11,14 +11,14 @@
     "href": "projects/horoscoperproj/index.html",
     "title": "HoroscopeR",
     "section": "",
-    "text": "You can install the development version from GitHub with:\n\n# install.packages(\"devtools\")\ndevtools::install_github(\"aibarra21/horoscoper\")\n\nUsing GitHub PAT from the git credential store.\n\n\nSkipping install of 'horoscoper' from a github remote, the SHA1 (8a0d797c) has not changed since last install.\n  Use `force = TRUE` to force installation\n\n\n\nlibrary(horoscoper)"
+    "text": "HoroscopeR Hex"
   },
   {
     "objectID": "projects/horoscoperproj/index.html#installation",
     "href": "projects/horoscoperproj/index.html#installation",
     "title": "HoroscopeR",
-    "section": "",
-    "text": "You can install the development version from GitHub with:\n\n# install.packages(\"devtools\")\ndevtools::install_github(\"aibarra21/horoscoper\")\n\nUsing GitHub PAT from the git credential store.\n\n\nSkipping install of 'horoscoper' from a github remote, the SHA1 (8a0d797c) has not changed since last install.\n  Use `force = TRUE` to force installation\n\n\n\nlibrary(horoscoper)"
+    "section": "Installation",
+    "text": "Installation\nYou can install the development version from GitHub with:\n\n# install.packages(\"devtools\")\ndevtools::install_github(\"aibarra21/horoscoper\")\n\nUsing GitHub PAT from the git credential store.\n\n\nSkipping install of 'horoscoper' from a github remote, the SHA1 (8a0d797c) has not changed since last install.\n  Use `force = TRUE` to force installation\n\n\n\nlibrary(horoscoper)"
   },
   {
     "objectID": "projects/horoscoperproj/index.html#zodiac-sign",
