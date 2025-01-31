@@ -1,6 +1,6 @@
 ---
 title: "Statistics Pegadogoy Research"
-description: This study examines how Simulation-Based Inference (SBI) curricula, compared to traditional methods, impact students' understanding of confidence intervals. Analyzing national data, it reveals SBI's potential to enhance statistical literacy by offering a more intuitive approach to key concepts, providing insights for improving introductory statistics education.
+description: This study examines how Simulation-Based Inference (SBI) curricula, compared to traditional methods, impact students' understanding of confidence intervals. 
 author: 
   - name: Ashley Ibarra
   - name: Matteo Schafer
