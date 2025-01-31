@@ -4,14 +4,14 @@
     "href": "index.html#education",
     "title": "Ashley Ibarra",
     "section": "🎓 Education",
-    "text": "🎓 Education\nCalifornia Polytechnic State University, San Luis Obispo\nB.S Statistics, Math Minor | Sept 2020 - June 2024"
+    "text": "🎓 Education\nCalifornia Polytechnic State University, San Luis Obispo\nB.S Statistics, Math Minor | Sept. 2020 - June 2024"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
     "title": "Ashley Ibarra",
     "section": "📊 Experience",
-    "text": "📊 Experience\nResearch Assistant | Statistics Pedagogy | Sept. 2023 - Dec 2023"
+    "text": "📊 Experience\nResearch Assistant | Statistics Pedagogy | Sept. 2023 - Dec. 2023"
   },
   {
     "objectID": "projects/horoscoperproj/index.html",
@@ -25,7 +25,7 @@
     "href": "projects/horoscoperproj/index.html#installation",
     "title": "HoroscopeR",
     "section": "Installation",
-    "text": "Installation\nYou can install the development version from GitHub with:\n\n# install.packages(\"devtools\")\ndevtools::install_github(\"aibarra21/horoscoper\", force = T)\n\nUsing GitHub PAT from the git credential store.\n\n\nDownloading GitHub repo aibarra21/horoscoper@HEAD\n\n\n\n── R CMD build ─────────────────────────────────────────────────────────────────\n* checking for file ‘/private/var/folders/qy/gcrm1_t57k13mpnb0_thcfjc0000gn/T/RtmpH85pkU/remotes248c37bb72f3/aibarra21-horoscoper-8a0d797/DESCRIPTION’ ... OK\n* preparing ‘horoscoper’:\n* checking DESCRIPTION meta-information ... OK\n* checking for LF line-endings in source and make files and shell scripts\n* checking for empty or unneeded directories\n* building ‘horoscoper_0.0.0.9000.tar.gz’\n\n\n\nlibrary(horoscoper)"
+    "text": "Installation\nYou can install the development version from GitHub with:\n\n# install.packages(\"remotes\")\nremotes::install_github(\"aibarra21/horoscoper\")\n\nUsing GitHub PAT from the git credential store.\n\n\nSkipping install of 'horoscoper' from a github remote, the SHA1 (8a0d797c) has not changed since last install.\n  Use `force = TRUE` to force installation\n\n\n\nlibrary(horoscoper)"
   },
   {
     "objectID": "projects/horoscoperproj/index.html#zodiac-sign",
@@ -60,7 +60,7 @@
     "href": "projects/statisticspedagogy/index.html",
     "title": "Statistics Pegadogoy Research",
     "section": "",
-    "text": "Differences in pedagogical approaches may influence students’ ability to grasp these concepts. Simulation-based inference (SBI) curricula, which focus on re-sampling and re-randomization instead of theoretical probability distributions, show a more intuitive understanding than traditional statistical curricula. The research objective is to identify the impact of textbook choice on students’ ability to comprehend confidence intervals. The project utilizes a national, multi-institutional data set that contains pre- and post-measures of students’ responses and evaluates their attitudes and conceptual understanding of different statistical concepts"
+    "text": "Differences in pedagogical approaches may influence students’ ability to grasp these concepts. Simulation-based inference (SBI) curricula, which focus on re-sampling and re-randomization instead of theoretical probability distributions, show a more intuitive understanding than traditional statistical curricula. The research objective is to identify the impact of textbook choice on students’ ability to comprehend confidence intervals. The project utilizes a national, multi-institutional data set that contains pre- and post-measures of students’ responses and evaluates their attitudes and conceptual understanding of different statistical concepts.\n\nPresented statistical findings at BSCM Student Research Conference at Cal Poly.\n\n\n\nSkills Demonstrated: Statistical Analysis, Quantitative Research Methods, Data Visualization, Presentation Skills, Tidyverse"
   },
   {
     "objectID": "projects.html",

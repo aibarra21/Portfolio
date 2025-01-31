@@ -7,4 +7,10 @@ author:
 
 ![](/media/stat400.jpg){fig-align="center" width="757"}
 
-Differences in pedagogical approaches may influence students' ability to grasp these concepts. Simulation-based inference (SBI) curricula, which focus on re-sampling and re-randomization instead of theoretical probability distributions, show a more intuitive understanding than traditional statistical curricula. The research objective is to identify the impact of textbook choice on students' ability to comprehend confidence intervals. The project utilizes a national, multi-institutional data set that contains pre- and post-measures of students' responses and evaluates their attitudes and conceptual understanding of different statistical concepts
+Differences in pedagogical approaches may influence students' ability to grasp these concepts. Simulation-based inference (SBI) curricula, which focus on re-sampling and re-randomization instead of theoretical probability distributions, show a more intuitive understanding than traditional statistical curricula. The research objective is to identify the impact of textbook choice on students' ability to comprehend confidence intervals. The project utilizes a national, multi-institutional data set that contains pre- and post-measures of students' responses and evaluates their attitudes and conceptual understanding of different statistical concepts.
+
+-   Presented statistical findings at BSCM Student Research Conference at Cal Poly.
+
+------------------------------------------------------------------------
+
+### Skills Demonstrated: Statistical Analysis, Quantitative Research Methods, Data Visualization, Presentation Skills, Tidyverse

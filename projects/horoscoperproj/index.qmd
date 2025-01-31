@@ -5,12 +5,11 @@ author:
   - name: Ashley Ibarra
   - name: Rebecca Ioffe
 image: /media/horoscopeR.png
-external-url: https://github.com/aibarra21/horoscoper
 ---
 
 ![HoroscopeR Hex](/media/horoscopeR.png){fig-align="center" width="400"}
 
-#### *Github Repository Link: <https://github.com/aibarra21/horoscoper>*
+#### Github Repository Link: <https://github.com/aibarra21/horoscoper>
 
 ------------------------------------------------------------------------
 
@@ -23,8 +22,8 @@ external-url: https://github.com/aibarra21/horoscoper
 You can install the development version from [GitHub](https://github.com/) with:
 
 ```{r}
-# install.packages("devtools")
-devtools::install_github("aibarra21/horoscoper", force = T)
+# install.packages("remotes")
+remotes::install_github("aibarra21/horoscoper")
 ```
 
 ```{r}
