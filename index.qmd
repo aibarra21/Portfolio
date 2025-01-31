@@ -3,18 +3,27 @@ title: "Ashley Ibarra"
 image: media/profpic.JPG
 about: 
   template: solana
-  image-shape: round
+  image-shape: rectangle
   links:
     - icon: envelope
+      text: Email
       href: mailto:ashle.ib9112@gmail.com
     - icon: linkedin
+      text: Linkedin
       href: https://www.linkedin.com/in/ashleyibarra2024/
     - icon: github
+      text: Github
       href: https://github.com/aibarra21
 ---
 
-#### I am a recent Statistics graduate with a passion for data storytelling using R. 
+#### I am a recent Statistics graduate with a passion for data storytelling using R.
 
-## Education
+## 🎓 Education
 
-B.S. Statistics, Math Minor at Cal Poly SLO
+California Polytechnic State University, San Luis Obispo
+
+B.S Statistics, Math Minor \| Sept 2020 - June 2024
+
+## 📊 Experience
+
+Research Assistant \| Statistics Pedagogy \| Sept. 2023 - Dec 2023

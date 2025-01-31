@@ -3,8 +3,29 @@
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Ashley Ibarra",
-    "section": "Education",
-    "text": "Education\nB.S. Statistics, Math Minor at Cal Poly SLO"
+    "section": "🎓 Education",
+    "text": "🎓 Education\nCalifornia Polytechnic State University, San Luis Obispo\nB.S Statistics, Math Minor | Sept 2020 - June 2024"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Ashley Ibarra",
+    "section": "📊 Experience",
+    "text": "📊 Experience\nResearch Assistant | Statistics Pedagogy | Sept. 2023 - Dec 2023"
+  },
+  {
+    "objectID": "projects/stat400research/index.html",
+    "href": "projects/stat400research/index.html",
+    "title": "Statistics Pegadogoy Research",
+    "section": "",
+    "text": "Comparing student understanding of valid and invalid statements of confidence intervals, pre- and post-course\nDifferences in pedagogical approaches may influence students’ ability to grasp these concepts. Simulation-based inference (SBI) curricula, which focus on re-sampling and re-randomization instead of theoretical probability distributions, show a more intuitive understanding than traditional statistical curricula. The research objective is to identify the impact of textbook choice on students’ ability to comprehend confidence intervals. The project utilizes a national, multi-institutional dataset that contains pre- and post-measures of students’ responses and evaluates their attitudes and conceptual understanding of different statistical concepts\nDownload PDF file."
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Last Updated: June 2024\nDownload PDF file."
   },
   {
     "objectID": "projects/horoscoperproj/index.html",
@@ -42,17 +63,10 @@
     "text": "Compatability\nYou can use the function compatibility() to determine how compatible any two zodiac signs are.\n\ncompatibility(\"taurus\",\"Cancer\")\n\nRomantic Compatibility between Taurus and Cancer:\nCompatibility Score: 8/10\nDescription: It’s love at first sight when Taurus meets Cancer.  Both are a great match because they have similar energy levels, dispositions, and desires in life.  They both have an eye for design, protective natures, and a high sex-drive that keeps them interested for a long time.  Taurus and Cancer have a lot in common: both are homebodies, deeply loyal, and very sentimental.  If a Taurus and Cancer went to the movies on their first date, they would each save the ticket stub as a keepsake (and possibly put it in a scrapbook).  Taurus and Cancer both crave stability and security in life.  They want to build a happy home, settle down, and have a family.  They both just want to be loved."
   },
   {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Resume",
-    "section": "",
-    "text": "Last Updated: June 2024\nDownload PDF file."
-  },
-  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "HoroscopeR\n\n\nGenerates daily horoscopes and zodiac sign information. This package uses webscrapping to get the horoscope information from horoscope.com\n\n\n\nAshley Ibarra, Rebecca Ioffe\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "HoroscopeR\n\n\nGenerates daily horoscopes and zodiac sign information. This package uses webscrapping to get the horoscope information from horoscope.com\n\n\n\nAshley Ibarra, Rebecca Ioffe\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStatistics Pegadogoy Research\n\n\nThis study examines how Simulation-Based Inference (SBI) curricula, compared to traditional methods, impact students’ understanding of confidence intervals. Analyzing…\n\n\n\nAshley Ibarra, Matteo Schafer, Beth Chance\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
