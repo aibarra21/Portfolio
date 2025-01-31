@@ -185,6 +185,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <figcaption>HoroscopeR Hex</figcaption>
 </figure>
 </div>
+<section id="skills-demonstrated" class="level3">
+<h3 class="anchored" data-anchor-id="skills-demonstrated">Skills Demonstrated:</h3>
+<p><strong>Web Scraping, String Manipulation, Data Frame Creation and Manipulation, Function Design, Looping and Iteration, Package Integration, Error Handling, Documentation and Usability, Efficiency and Best Practices</strong></p>
+</section>
 <section id="installation" class="level2">
 <h2 class="anchored" data-anchor-id="installation">Installation</h2>
 <p>You can install the development version from <a href="https://github.com/">GitHub</a> with:</p>
@@ -236,9 +240,11 @@ Motto: "Nothing worth having comes easy."</code></pre>
 Daily Horoscope: Jan 25, 2025 - Don't turn down invitations today, Taurus. A group meeting or social event could be thrown together with casual acquaintances, and your relationship with these people could abruptly change. At the very least, some will become friends. You might also acquire some valuable business contacts or partners. You might fall in love. By evening, you could be in a daze from the unexpected events.</code></pre>
 </div>
 </div>
+<p><em>Code Description for getdailyhoroscope()</em></p>
+<p>In developing the <code>getdailyhoroscope</code> function for the <strong>HoroscopeR</strong> package, I demonstrated a range of R programming skills, including <strong>web scraping</strong>, <strong>data manipulation</strong>, <strong>string processing</strong>, and <strong>function design</strong>. The function retrieves daily horoscopes by scraping data from <a href="https://www.horoscope.com/">Horoscope.com</a> using the <code>rvest</code> package, processes the text with <code>stringr</code> to clean and format the output, and dynamically constructs a data frame to store horoscope information for all 12 zodiac signs. Additionally, I implemented error handling to ensure users receive meaningful feedback for invalid inputs. The function is designed to be user-friendly, returning a neatly formatted horoscope message using <code>glue</code>, and incorporates best practices such as adding a <code>Sys.sleep</code> delay to avoid overloading the server. This project highlights my ability to create practical, efficient, and well-documented R functions for real-world applications.</p>
 </section>
-<section id="compatability" class="level2">
-<h2 class="anchored" data-anchor-id="compatability">Compatability</h2>
+<section id="compatibility" class="level2">
+<h2 class="anchored" data-anchor-id="compatibility">Compatibility</h2>
 <p>You can use the function compatibility() to determine how compatible any two zodiac signs are.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">compatibility</span>(<span class="st">"taurus"</span>,<span class="st">"Cancer"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>

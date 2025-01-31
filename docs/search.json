@@ -39,7 +39,7 @@
     "href": "projects/horoscoperproj/index.html#daily-horoscope",
     "title": "HoroscopeR",
     "section": "Daily Horoscope",
-    "text": "Daily Horoscope\nYou can use the function getdailyhoroscope() to get your daily horoscope for your zodiac. This function updates daily.\n\ngetdailyhoroscope(\"taurus\")\n\nSign: Taurus\nDaily Horoscope: Jan 25, 2025 - Don't turn down invitations today, Taurus. A group meeting or social event could be thrown together with casual acquaintances, and your relationship with these people could abruptly change. At the very least, some will become friends. You might also acquire some valuable business contacts or partners. You might fall in love. By evening, you could be in a daze from the unexpected events."
+    "text": "Daily Horoscope\nYou can use the function getdailyhoroscope() to get your daily horoscope for your zodiac. This function updates daily.\n\ngetdailyhoroscope(\"taurus\")\n\nSign: Taurus\nDaily Horoscope: Jan 25, 2025 - Don't turn down invitations today, Taurus. A group meeting or social event could be thrown together with casual acquaintances, and your relationship with these people could abruptly change. At the very least, some will become friends. You might also acquire some valuable business contacts or partners. You might fall in love. By evening, you could be in a daze from the unexpected events.\n\n\nCode Description for getdailyhoroscope()\nIn developing the getdailyhoroscope function for the HoroscopeR package, I demonstrated a range of R programming skills, including web scraping, data manipulation, string processing, and function design. The function retrieves daily horoscopes by scraping data from Horoscope.com using the rvest package, processes the text with stringr to clean and format the output, and dynamically constructs a data frame to store horoscope information for all 12 zodiac signs. Additionally, I implemented error handling to ensure users receive meaningful feedback for invalid inputs. The function is designed to be user-friendly, returning a neatly formatted horoscope message using glue, and incorporates best practices such as adding a Sys.sleep delay to avoid overloading the server. This project highlights my ability to create practical, efficient, and well-documented R functions for real-world applications."
   },
   {
     "objectID": "projects/horoscoperproj/index.html#compatability",
@@ -60,7 +60,7 @@
     "href": "projects/statisticspedagogy/index.html",
     "title": "Statistics Pegadogoy Research",
     "section": "",
-    "text": "Comparing student understanding of valid and invalid statements of confidence intervals, pre- and post-course\nDifferences in pedagogical approaches may influence students’ ability to grasp these concepts. Simulation-based inference (SBI) curricula, which focus on re-sampling and re-randomization instead of theoretical probability distributions, show a more intuitive understanding than traditional statistical curricula. The research objective is to identify the impact of textbook choice on students’ ability to comprehend confidence intervals. The project utilizes a national, multi-institutional dataset that contains pre- and post-measures of students’ responses and evaluates their attitudes and conceptual understanding of different statistical concepts"
+    "text": "Differences in pedagogical approaches may influence students’ ability to grasp these concepts. Simulation-based inference (SBI) curricula, which focus on re-sampling and re-randomization instead of theoretical probability distributions, show a more intuitive understanding than traditional statistical curricula. The research objective is to identify the impact of textbook choice on students’ ability to comprehend confidence intervals. The project utilizes a national, multi-institutional data set that contains pre- and post-measures of students’ responses and evaluates their attitudes and conceptual understanding of different statistical concepts"
   },
   {
     "objectID": "projects.html",
@@ -68,5 +68,12 @@
     "title": "Projects",
     "section": "",
     "text": "HoroscopeR\n\n\nGenerates daily horoscopes and zodiac sign information. This package uses webscrapping to get the horoscope information from horoscope.com\n\n\n\nAshley Ibarra, Rebecca Ioffe\n\n\n\n\n\n\n\n\n\n\n\n\nStatistics Pegadogoy Research\n\n\nThis study examines how Simulation-Based Inference (SBI) curricula, compared to traditional methods, impact students’ understanding of confidence intervals.\n\n\n\nAshley Ibarra, Matteo Schafer, Beth Chance\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/horoscoperproj/index.html#compatibility",
+    "href": "projects/horoscoperproj/index.html#compatibility",
+    "title": "HoroscopeR",
+    "section": "Compatibility",
+    "text": "Compatibility\nYou can use the function compatibility() to determine how compatible any two zodiac signs are.\n\ncompatibility(\"taurus\",\"Cancer\")\n\nRomantic Compatibility between Taurus and Cancer:\nCompatibility Score: 8/10\nDescription: It’s love at first sight when Taurus meets Cancer.  Both are a great match because they have similar energy levels, dispositions, and desires in life.  They both have an eye for design, protective natures, and a high sex-drive that keeps them interested for a long time.  Taurus and Cancer have a lot in common: both are homebodies, deeply loyal, and very sentimental.  If a Taurus and Cancer went to the movies on their first date, they would each save the ticket stub as a keepsake (and possibly put it in a scrapbook).  Taurus and Cancer both crave stability and security in life.  They want to build a happy home, settle down, and have a family.  They both just want to be loved."
   }
 ]
