@@ -56,10 +56,17 @@
     "text": "Last Updated: June 2024\nDownload PDF file."
   },
   {
+    "objectID": "projects/statisticspedagogy/index.html",
+    "href": "projects/statisticspedagogy/index.html",
+    "title": "Statistics Pegadogoy Research",
+    "section": "",
+    "text": "Comparing student understanding of valid and invalid statements of confidence intervals, pre- and post-course\nDifferences in pedagogical approaches may influence students’ ability to grasp these concepts. Simulation-based inference (SBI) curricula, which focus on re-sampling and re-randomization instead of theoretical probability distributions, show a more intuitive understanding than traditional statistical curricula. The research objective is to identify the impact of textbook choice on students’ ability to comprehend confidence intervals. The project utilizes a national, multi-institutional dataset that contains pre- and post-measures of students’ responses and evaluates their attitudes and conceptual understanding of different statistical concepts"
+  },
+  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "HoroscopeR\n\n\nGenerates daily horoscopes and zodiac sign information. This package uses webscrapping to get the horoscope information from horoscope.com\n\n\n\nAshley Ibarra, Rebecca Ioffe\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "HoroscopeR\n\n\nGenerates daily horoscopes and zodiac sign information. This package uses webscrapping to get the horoscope information from horoscope.com\n\n\n\nAshley Ibarra, Rebecca Ioffe\n\n\n\n\n\n\n\n\n\n\n\n\nStatistics Pegadogoy Research\n\n\nThis study examines how Simulation-Based Inference (SBI) curricula, compared to traditional methods, impact students’ understanding of confidence intervals. Analyzing…\n\n\n\nAshley Ibarra, Matteo Schafer, Beth Chance\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
