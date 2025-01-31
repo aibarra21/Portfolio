@@ -53,7 +53,7 @@ You can use the function getdailyhoroscope() to get your daily horoscope for you
 getdailyhoroscope("Taurus")
 ```
 
-*Code Description for getdailyhoroscope()*
+[Code Description for getdailyhoroscope():]{.underline}
 
 In developing the `getdailyhoroscope` function for the **HoroscopeR** package, I demonstrated a range of R programming skills, including **web scraping**, **data manipulation**, **string processing**, and **function design**. The function retrieves daily horoscopes by scraping data from [Horoscope.com](https://www.horoscope.com/) using the `rvest` package, processes the text with `stringr` to clean and format the output, and dynamically constructs a data frame to store horoscope information for all 12 zodiac signs. Additionally, I implemented error handling to ensure users receive meaningful feedback for invalid inputs. The function is designed to be user-friendly, returning a neatly formatted horoscope message using `glue`, and incorporates best practices such as adding a `Sys.sleep` delay to avoid overloading the server. This project highlights my ability to create practical, efficient, and well-documented R functions for real-world applications.
 
